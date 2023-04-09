@@ -129,7 +129,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .btn-solid-border {
   border: 2px solid #FF715B;
   background: transparent;
-  color: #111;
+  /* color: #111; */
 }
 .btn-solid-border:hover {
   border: 2px solid #FF715B;
@@ -1617,11 +1617,8 @@ ul.dropdown-menu li {
 	background-position: center;
 	background-attachment: fixed;
 }
-@media (max-width: 800px){
+@media (max-width: 600px){
 	#carouselExampleIndicators .carousel-inner .carousel-item{
-		position: relative;
-		height: 100%;
-		width:100%;
 		background: url("../images/about1.jpg") !important;
 		background-size: 100% 100%;
 		background-position: center;
@@ -1634,7 +1631,7 @@ ul.dropdown-menu li {
 	background-position: center;
 	background-attachment: fixed;
 }
-@media (max-width: 800px){
+@media (max-width: 600px){
 	#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
 		background: url("../images/about2.jpg") !important;
 		background-size: 100% 100%;
@@ -1648,7 +1645,7 @@ ul.dropdown-menu li {
 	background-position: center;
 	background-attachment: fixed;
 }
-@media (max-width: 800px){
+@media only screen and (max-width: 600px){
 	#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 		background: url("../images/about3.jpg") !important;
 		background-size: 100% 100%;
@@ -1682,10 +1679,6 @@ ul.dropdown-menu li {
 	text-align: center;
 	font-size: 1.2em;
 	font-weight: 500;
-}
-
-.my-nav{
-  color: #ffffff !important;
 }
 
 .my-nav.scrolled {
