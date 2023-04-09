@@ -584,7 +584,7 @@ ul.dropdown-menu li {
   background-size: cover;
 }
 
-.banner {
+/* .banner {
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -592,7 +592,21 @@ ul.dropdown-menu li {
   background-size: cover;
   padding: 120px 0px;
   min-height: 800px;
+} */
+.banner .container{
+  position: absolute;
+  padding-bottom: 10%;
+  padding-left: 10%;
 }
+.banner .container .hero-heading{
+  font-size: 60px;
+  color: beige;
+}
+.banner .container p{
+  font-size: 24px;
+  color: white;
+}
+
 .banner .block {
   padding-top: 120px;
 }
@@ -1569,3 +1583,112 @@ ul.dropdown-menu li {
   color: #FF715B;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/*slider*/
+#carouselExampleIndicators{
+	position: relative;
+  z-index: 0;
+	height: 100vh;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('../images/slider1.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+@media (max-width: 800px){
+	#carouselExampleIndicators .carousel-inner .carousel-item{
+		position: relative;
+		height: 100%;
+		width:100%;
+		background: url("../images/about1.jpg") !important;
+		background-size: 100% 100%;
+		background-position: center;
+		background-attachment: fixed;
+	}
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('../images/slider2.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+@media (max-width: 800px){
+	#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+		background: url("../images/about2.jpg") !important;
+		background-size: 100% 100%;
+		background-position: center;
+		background-attachment: fixed;
+	}
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('../images/slider3.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+@media (max-width: 800px){
+	#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+		background: url("../images/about3.jpg") !important;
+		background-size: 100% 100%;
+		background-position: center;
+		background-attachment: fixed;
+	}
+}
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+	height: auto;
+	color: #fff;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 5.5em;
+	font-weight: 750;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: #ccc;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.my-nav{
+  color: #ffffff !important;
+}
+
+.my-nav.scrolled {
+  background-color: #ffffff !important;
+  color: #000;
+}

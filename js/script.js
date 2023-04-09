@@ -5,6 +5,15 @@
  * GITHUB: https://github.com/themefisher/
  */
 
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 150) {
+  console.log("Scrolled");
+  $(".my-nav").addClass("scrolled");
+  } else {
+  $(".my-nav").removeClass("scrolled");
+  }
+});
+
 (function ($) {
   "use strict";
   $(".video-play").modalVideo();
