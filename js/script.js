@@ -1,16 +1,12 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 $(window).scroll(function () {
+  var myDiv = document.getElementById("navbar");
   if ($(this).scrollTop() > 150) {
-  console.log("Scrolled");
-  $(".my-nav").addClass("scrolled");
+    myDiv.classList.remove("nav-text-white");
+    $(".my-nav").addClass("scrolled");
+    $(".nav-link").addClass("scrolled");
   } else {
-  $(".my-nav").removeClass("scrolled");
+    myDiv.classList.add("nav-text-white");
+    $(".my-nav").removeClass("scrolled");
   }
 });
 
