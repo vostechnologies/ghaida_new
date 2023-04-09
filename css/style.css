@@ -56,7 +56,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-  background: #FF715B;
+  background: rgb(176, 150, 102);
 }
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
@@ -67,7 +67,7 @@ input[type=email], input[type=password], input[type=text], input[type=tel] {
 }
 input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus {
   box-shadow: none;
-  border: 1px solid #FF715B;
+  border: 1px solid rgb(176, 150, 102);
 }
 
 .form-control {
@@ -76,7 +76,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #FF715B;
+  border: 1px solid rgb(176, 150, 102);
 }
 
 .py-7 {
@@ -106,35 +106,35 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-main {
-  background: #FF715B;
-  color: #fff;
-  border-color: #FF715B;
+  background: rgb(176, 150, 102);
+  color: beige;
+  border-color: rgb(176, 150, 102);
 }
 .btn-main:hover {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   background: transparent;
 }
 
 .btn-main-2 {
-  background: #FF715B;
-  color: #fff;
-  border-color: #FF715B;
+  background: rgb(176, 150, 102);
+  color: beige;
+  border-color: rgb(176, 150, 102);
 }
 .btn-main-2:hover {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   background: transparent;
-  border-color: #FF715B;
+  border-color: rgb(176, 150, 102);
 }
 
 .btn-solid-border {
-  border: 2px solid #FF715B;
+  border: 2px solid rgb(176, 150, 102);
   background: transparent;
   /* color: #111; */
 }
 .btn-solid-border:hover {
-  border: 2px solid #FF715B;
-  color: #fff;
-  background: #FF715B;
+  border: 2px solid rgb(176, 150, 102);
+  color: beige;
+  background: rgb(176, 150, 102);
 }
 
 .btn-transparent {
@@ -144,18 +144,18 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 .btn-transparent:hover {
   background: #6F8BA4;
-  color: #fff;
+  color: beige;
 }
 
 .btn-white {
-  background: #fff;
+  background: beige;
   border-color: #fff;
   color: #111;
 }
 .btn-white:hover {
-  background: #FF715B;
+  background: rgb(176, 150, 102);
   color: #fff;
-  border-color: #FF715B;
+  border-color: rgb(176, 150, 102);
 }
 
 .btn-solid-white {
@@ -184,15 +184,15 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-primary {
-  background: #FF715B;
+  background: rgb(176, 150, 102);
 }
 
 .bg-primary-dark {
-  background: #ff4528;
+  background: rgb(176, 150, 102);
 }
 
 .bg-primary-darker {
-  background: #f42100;
+  background: rgb(176, 150, 102);
 }
 
 .bg-dark {
@@ -225,7 +225,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .subtitle {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -284,7 +284,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   text-decoration: none;
 }
 
@@ -457,7 +457,7 @@ a:focus {
 }
 
 .dropdown-item:hover {
-  background: #FF715B;
+  background: rgb(176, 150, 102);
   color: #fff;
 }
 
@@ -623,7 +623,7 @@ ul.dropdown-menu li {
 }
 
 .text-color {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 
 @media (max-width: 480px) {
@@ -669,7 +669,7 @@ ul.dropdown-menu li {
   font-size: 50px;
 }
 .about-item a {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   font-weight: 500;
 }
 .about-item .icon {
@@ -708,7 +708,7 @@ ul.dropdown-menu li {
   padding-top: 16px;
   border-radius: 10px;
   display: inline-block;
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 .icon-block h5 {
   margin-top: 25px;
@@ -723,7 +723,7 @@ ul.dropdown-menu li {
   color: #111;
 }
 .feature-list ul li i {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 
 .video-img {
@@ -746,7 +746,7 @@ ul.dropdown-menu li {
   width: 100px;
   height: 100px;
   background: #fff;
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   border-radius: 100%;
   text-align: center;
   display: inline-block;
@@ -788,7 +788,7 @@ ul.dropdown-menu li {
 }
 
 .counter {
-  background: #FF715B;
+  background: rgb(176, 150, 102);
 }
 .counter .counter-item h2 {
   color: #fff;
@@ -806,7 +806,7 @@ ul.dropdown-menu li {
   height: 100px;
   border-radius: 100%;
   color: #fafafa;
-  background: #FF715B;
+  background: rgb(176, 150, 102);
   display: inline-block;
   padding-top: 28px;
 }
@@ -827,7 +827,7 @@ ul.dropdown-menu li {
   line-height: 1.1;
   margin-right: 20px;
   float: left;
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 .service-item-list p {
   padding-left: 50px;
@@ -937,7 +937,7 @@ ul.dropdown-menu li {
 }
 
 .text-color-primary {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 
 /* .testimonial-wrap {
@@ -969,7 +969,7 @@ ul.dropdown-menu li {
   top:-20px; left:50%; width:100px; height:100px;margin-left:-50px; text-align:center;
 }
 .card-01 .badge-box i{
-  background:#FF715B; color:#fff; border-radius:50%;  width:50px; height:50px; line-height:50px; text-align:center; font-size:20px;
+  background:rgb(176, 150, 102); color:#fff; border-radius:50%;  width:50px; height:50px; line-height:50px; text-align:center; font-size:20px;
 }
 .card-01 .height-fix{
   height:455px; overflow:hidden;
@@ -1031,7 +1031,7 @@ ul.dropdown-menu li {
 }
 .pricing-block {
   padding: 20px 0px 50px 0px;
-  border-top: 7px solid #FF715B;
+  border-top: 7px solid rgb(176, 150, 102);
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border: 0px;
@@ -1070,7 +1070,7 @@ ul.dropdown-menu li {
   top: 0px;
   width: 100%;
   height: 500px;
-  background-color: #f7f7f7;
+  background-color: beige;
 }
 
 .portflio-item:before {
@@ -1081,7 +1081,7 @@ ul.dropdown-menu li {
   width: 0%;
   position: absolute;
   transition: all 0.25s cubic-bezier(0.86, 0, 0.07, 1);
-  background: rgba(82, 69, 44, 0.98);
+  background: rgba(176, 150, 102, 0.98);
   opacity: 0;
   overflow: hidden;
 }
@@ -1113,7 +1113,7 @@ ul.dropdown-menu li {
   align-items: center;
   justify-content: center;
   font-size: 40px;
-  color: #fff;
+  color: beige;
   opacity: 0;
   transition: all 0.35s ease;
 }
@@ -1123,7 +1123,7 @@ ul.dropdown-menu li {
   text-align: center;
   border-radius: 100%;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(176, 150, 102 0.06);
   padding-top: 15px;
 }
 .portflio-item:hover .overlay-item {
@@ -1225,7 +1225,7 @@ ul.dropdown-menu li {
   margin-right: 10px;
 }
 .nav-links .page-numbers:hover {
-  background: #FF715B;
+  background: rgb(176, 150, 102);
   color: #fff;
 }
 
@@ -1251,7 +1251,7 @@ ul.dropdown-menu li {
   padding: 40px;
   font-style: italic;
   background: #f5f6ff;
-  border-left: 5px solid #FF715B;
+  border-left: 5px solid rgb(176, 150, 102);
   margin: 25px 0px;
 }
 
@@ -1336,7 +1336,7 @@ ul.dropdown-menu li {
   font-weight: 500;
 }
 .post-comments .comment-author a {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1347,7 +1347,7 @@ ul.dropdown-menu li {
   font-size: 12px;
 }
 .post-comments .comment-button {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
   display: inline-block;
   margin-left: 5px;
   font-size: 12px;
@@ -1357,7 +1357,7 @@ ul.dropdown-menu li {
   display: inline-block;
 }
 .post-comments .comment-button:hover {
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 
 .post-excerpt {
@@ -1375,7 +1375,7 @@ ul.dropdown-menu li {
 .post-excerpt blockquote.quote-post p {
   line-height: 30px;
   font-size: 20px;
-  color: #FF715B;
+  color: rgb(176, 150, 102);
 }
 
 .single-blog {
