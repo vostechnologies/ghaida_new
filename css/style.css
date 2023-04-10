@@ -415,6 +415,11 @@ a:focus {
 #navbar.nav-text-white .navbar-brand {
   color: #fff;
 }
+@media (max-width: 860px){
+  #navbar.nav-text-white .navbar-brand {
+    color: #000000;
+  }
+}
 
 @media (max-width: 700px) {
   #navbar.nav-text-white .navbar-brand {
