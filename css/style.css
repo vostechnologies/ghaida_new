@@ -7,10 +7,6 @@
 
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Rubik:400,500,600,700|Montserrat:900,700");
-html {
-  overflow-x: hidden;
-}
-
 body {
   line-height: 1.6;
   font-family: "Rubik", sans-serif;
@@ -420,6 +416,12 @@ a:focus {
   color: #fff;
 }
 
+@media (max-width: 700px) {
+  #navbar.nav-text-white .navbar-brand {
+    color: #000000 !important;
+  }
+}
+
 .navbar-brand {
   font-weight: 600;
 }
@@ -600,6 +602,7 @@ ul.dropdown-menu li {
 }
 .banner .container .hero-heading{
   font-size: 60px;
+  line-height: 1.2;
   color: beige;
 }
 .banner .container p{
