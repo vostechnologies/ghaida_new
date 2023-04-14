@@ -1664,7 +1664,7 @@ ul.dropdown-menu li {
 		background-position: center;
 		background-attachment: fixed;
 	}
- 
+
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 	background: url('../images/slider3.jpg');
@@ -1712,13 +1712,5 @@ ul.dropdown-menu li {
   background-color: #ffffff !important;
   color: #000;
 }
-:root{
-  --bs-dark: #202020;
-}
 
-
-/* .bg-dark {
-  background-color: #202020 !important;
-  color: #fff !important;
-} */
 
