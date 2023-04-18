@@ -416,8 +416,14 @@ a:focus {
 #navbar.nav-text-white .nav-link {
   color: #fff;
 }
+
 #navbar.nav-text-white .navbar-brand {
   color: #fff;
+}
+@media (max-width: 860px){
+  #navbar.nav-text-white .navbar-brand {
+    color: #000000;
+  }
 }
 
 .navbar-brand {
@@ -584,15 +590,6 @@ ul.dropdown-menu li {
   background-size: cover;
 }
 
-/* .banner {
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-  background: url("../images/bg/main-banner1.jpg") no-repeat 80% 50%;
-  background-size: cover;
-  padding: 120px 0px;
-  min-height: 800px;
-} */
 .banner .container{
   position: absolute;
   padding-bottom: 10%;
@@ -600,6 +597,7 @@ ul.dropdown-menu li {
 }
 .banner .container .hero-heading{
   font-size: 60px;
+  line-height: 58px;
   color: beige;
 }
 .banner .container p{
@@ -642,7 +640,7 @@ ul.dropdown-menu li {
     line-height: 40px;
   }
   .banner {
-    padding: 126px 0 151px 0;
+    padding: 0 0 151px 0;
     background: #fff !important;
   }
 }
